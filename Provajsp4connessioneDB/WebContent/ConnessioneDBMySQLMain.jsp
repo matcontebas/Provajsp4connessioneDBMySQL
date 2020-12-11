@@ -49,7 +49,7 @@
 			}
 			
 		} catch(Exception e){
-			out.print("<p>"+"Errore connessione DB"+"</p>");
+			out.print("<p>"+"Errore sql"+"</p>");
 			out.print("<p>"+e.getMessage()+"</p>");
 		}
 		/*try {

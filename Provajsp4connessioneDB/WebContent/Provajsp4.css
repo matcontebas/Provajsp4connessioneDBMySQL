@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+table{
+	/*la seguente istruzione serve per far "collassare" i bordi confinanti
+	di ogni cella; senza questa ogni cella sarebbe bordata*/
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid black;
+}
+th {
+	background-color:green;
+	color: white;
+}
+/*la seguente istruzione cambia colore alle righe quando ci passa sopra il mouse*/
+tr:hover {background-color: #f5f5f5}
